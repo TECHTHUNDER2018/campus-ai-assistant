@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
             btn.classList.add('active');
             currentLanguage = btn.getAttribute('data-lang');
             // Optional: Send a language change message to the bot
-            // addMessageToChat('bot', `Language switched to ${btn.textContent}.`);
+            addMessageToChat('bot', `Language switched to ${btn.textContent}.`);
         });
     });
 
